@@ -73,7 +73,7 @@ https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=1-3&p=f
 
 *  O comando para execução do JSON Server deve ser aplicado no diretório raiz do projeto (onde estão os arquivos db.json e routes.json)
 
-*  Por padrão, a aplicação JSON Server executa no endereço localhost:3000
+    por padrão, a aplicação JSON Server executa no endereço localhost:3000
 
 *  Executar o projeto frontend
 

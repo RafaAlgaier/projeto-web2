@@ -49,7 +49,7 @@ https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=1-3&p=f
 - [ ] **ID25** - Realiza requisições assíncronas para uma API fake utilizando AJAX ou Fetch API.
 - [ ] **ID26** - Realiza requisições assíncronas para uma API fake utilizando AJAX ou Fetch API para exibição dos dados.
 
-Manual de execução
+## Manual de execução
 
 * Clonar o repositório com git clone
 

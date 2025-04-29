@@ -61,15 +61,15 @@ https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=1-3&p=f
 
 *  Instalar as dependências contidas no package.json com o comando: npm i
 
-  (Opcional) Instalar o JSON Server globalmente com o comando: npm i -g json-server
+*   (Opcional) Instalar o JSON Server globalmente com o comando: npm i -g json-server
 
-  Nota: A dependência já vem cadastrada no package.json para instalação local na pasta node_modules
+    Nota: A dependência já vem cadastrada no package.json para instalação local na pasta node_modules
 
 *  Executar a API Fake (JSON Server) via um dos seguintes comandos:
 
-  Execução via script registrado no package.json: npm run json:server:routes
+    Execução via script registrado no package.json: npm run json:server:routes
 
-  Ou via execução explícita: json-server --watch db.json --routes routes.json
+    Ou via execução explícita: json-server --watch db.json --routes routes.json
 
 *  O comando para execução do JSON Server deve ser aplicado no diretório raiz do projeto (onde estão os arquivos db.json e routes.json)
 

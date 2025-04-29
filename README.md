@@ -49,29 +49,31 @@ https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=1-3&p=f
 - [ ] **ID25** - Realiza requisições assíncronas para uma API fake utilizando AJAX ou Fetch API.
 - [ ] **ID26** - Realiza requisições assíncronas para uma API fake utilizando AJAX ou Fetch API para exibição dos dados.
 
-Clonar o repositório com git clone
+Manual de execução
 
-Fazer checkout no branch develop que contém as modificações mais recentes
+* Clonar o repositório com git clone
 
-Abrir o projeto no editor Visual Studio Code (VS Code)
+*  Fazer checkout no branch develop que contém as modificações mais recentes
 
-Abrir um terminal pelo VSCode ou qualquer terminal do seu Sistema Operacional apontando para o diretório raiz do projeto
+*  Abrir o projeto no editor Visual Studio Code (VS Code)
 
-Instalar as dependências contidas no package.json com o comando: npm i
+*  Abrir um terminal pelo VSCode ou qualquer terminal do seu Sistema Operacional apontando para o diretório raiz do projeto
 
-(Opcional) Instalar o JSON Server globalmente com o comando: npm i -g json-server
+*  Instalar as dependências contidas no package.json com o comando: npm i
 
-Nota: A dependência já vem cadastrada no package.json para instalação local na pasta node_modules
+  (Opcional) Instalar o JSON Server globalmente com o comando: npm i -g json-server
 
-Executar a API Fake (JSON Server) via um dos seguintes comandos:
+  Nota: A dependência já vem cadastrada no package.json para instalação local na pasta node_modules
 
-Execução via script registrado no package.json: npm run json:server:routes
+*  Executar a API Fake (JSON Server) via um dos seguintes comandos:
 
-Ou via execução explícita: json-server --watch db.json --routes routes.json
+  Execução via script registrado no package.json: npm run json:server:routes
 
-O comando para execução do JSON Server deve ser aplicado no diretório raiz do projeto (onde estão os arquivos db.json e routes.json)
+  Ou via execução explícita: json-server --watch db.json --routes routes.json
 
-Por padrão, a aplicação JSON Server executa no endereço localhost:3000
+*  O comando para execução do JSON Server deve ser aplicado no diretório raiz do projeto (onde estão os arquivos db.json e routes.json)
 
-Executar o projeto frontend
+*  Por padrão, a aplicação JSON Server executa no endereço localhost:3000
+
+*  Executar o projeto frontend
 

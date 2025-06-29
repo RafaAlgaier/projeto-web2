@@ -1,0 +1,66 @@
+{
+  "clubes": [
+    {
+      "id": "1",
+      "nome": "Guarapuava FC",
+      "cidade": "Guarapuava",
+      "jogadores": [
+        {
+          "id": 101,
+          "nome": "João Silva",
+          "posicao": "Atacante",
+          "numero": 9,
+          "idade": 24,
+          "nacionalidade": "Brasil"
+        }
+      ]
+    }
+  ],
+  "jogadores": [
+    {
+      "id": "101",
+      "nome": "João Silva",
+      "posicao": "Atacante",
+      "numero": 9,
+      "idade": 24,
+      "nacionalidade": "Brasil",
+      "clubeId": 1
+    },
+    {
+      "nome": "Lucas",
+      "posicao": "Meio-campista",
+      "numero": "32",
+      "idade": "19",
+      "nacionalidade": "Brasil",
+      "clubeId": 1751071960263,
+      "id": "3cbc"
+    },
+    {
+      "id": "7f9b",
+      "nome": "Henrique",
+      "posicao": "Meio-campista",
+      "numero": "12",
+      "idade": "25",
+      "nacionalidade": "Brasil",
+      "clubeId": 1751071960263
+    },
+    {
+      "id": "7b90",
+      "nome": "s",
+      "posicao": "Goleiro",
+      "numero": "33",
+      "idade": "22",
+      "nacionalidade": "Argentina",
+      "clubeId": 1751071960263
+    },
+    {
+      "id": "3b31",
+      "nome": "Leonardo",
+      "posicao": "Meio-campista",
+      "numero": "44",
+      "idade": "22",
+      "nacionalidade": "Brasil",
+      "clubeId": 1751222004426
+    }
+  ]
+}

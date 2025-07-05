@@ -9,6 +9,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <script src="js/lista.js" defer></script>
   </head>
   <body class="bg-fpf-background text-white">
@@ -46,10 +51,13 @@
     </nav>
 
     <main class="container mt-5">
-      <h2 class="text-center mb-4 text-jogadores" id="tituloJogadores">
-        Jogadores
-      </h2>
-      <ul id="listaJogadores" class="list-group"></ul>
+      <!-- SEÇÃO que o JS espera -->
+      <section id="jogadoresClube" class="mt-5 d-none">
+        <h2 class="text-center mb-4 text-jogadores" id="tituloJogadores">
+          Jogadores
+        </h2>
+        <ul id="listaJogadores" class="list-group"></ul>
+      </section>
     </main>
   </body>
 </html>

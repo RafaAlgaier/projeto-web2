@@ -61,6 +61,15 @@
       "idade": "22",
       "nacionalidade": "Brasil",
       "clubeId": 1751222004426
+    },
+    {
+      "id": "be5d",
+      "nome": "Nuno Mendes",
+      "posicao": "Lateral",
+      "numero": "6",
+      "idade": "23",
+      "nacionalidade": "Portugal",
+      "clubeId": 1751730242224
     }
   ]
 }

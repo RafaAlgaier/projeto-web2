@@ -1,3 +1,39 @@
+// Aguarda o DOM estar pronto para aplicar as máscaras
+$(function () {
+  // Máscara para número da camisa (1 a 99)
+  $("#numero").mask("00", {
+    translation: {
+      0: { pattern: /[0-9]/ },
+    },
+    onComplete: function (val) {
+      const num = parseInt(val, 10);
+      if (num < 1 || num > 99) {
+        alert("Número inválido. Use apenas número entre 1 a 99.");
+        $("#numero").val("");
+      } else {
+        $("#numero").val(num); // Remove zeros à esquerda
+      }
+    },
+  });
+
+  // Máscara para idade (16 a 60)
+  $("#idade").mask("00", {
+    translation: {
+      0: { pattern: /[0-9]/ },
+    },
+    onComplete: function (val) {
+      const idadeNum = parseInt(val, 10);
+      if (idadeNum < 16 || idadeNum > 60) {
+        alert("Idade inválida. Deve estar entre 16 e 60 anos.");
+        $("#idade").val("");
+      } else {
+        $("#idade").val(idadeNum);
+      }
+    },
+  });
+});
+
+// Validação e envio do formulário
 document
   .getElementById("formJogador")
   .addEventListener("submit", async function (event) {

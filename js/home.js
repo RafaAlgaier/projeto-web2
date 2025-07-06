@@ -48,7 +48,6 @@ document.addEventListener("DOMContentLoaded", function () {
     listaClubes.appendChild(col);
   });
 
-  // Botão de logout padrão
   const logoutBtn = document.getElementById("btnLogout");
   if (logoutBtn) {
     logoutBtn.addEventListener("click", function () {
@@ -57,7 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Botão de logout no dropdown
   const logoutDropdownBtn = document.getElementById("btnLogoutDropdown");
   if (logoutDropdownBtn) {
     logoutDropdownBtn.addEventListener("click", function () {
@@ -66,7 +64,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 
-  // Botão "Meus Jogadores"
   const meuBtn = document.getElementById("meusJogadoresBtn");
   if (meuBtn) {
     meuBtn.addEventListener("click", function (e) {

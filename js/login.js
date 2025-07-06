@@ -1,11 +1,9 @@
-// js/login.js
-
 document
   .getElementById("formLogin")
   .addEventListener("submit", function (event) {
     event.preventDefault();
 
-    const nomeClube = document.getElementById("time").value.trim(); // ID corrigido
+    const nomeClube = document.getElementById("time").value.trim();
     const senha = document.getElementById("senha").value;
 
     if (!nomeClube || !senha) {
@@ -30,6 +28,5 @@ document
     // Define o clube logado para sessão
     localStorage.setItem("clubeLogado", JSON.stringify(clube));
 
-    // Redireciona para home
     window.location.href = "home.html";
   });

@@ -1,6 +1,5 @@
-// Aguarda o DOM estar pronto para aplicar as máscaras
 $(function () {
-  // Máscara para número da camisa (1 a 99)
+  // Máscara para número da camisa
   $("#numero").mask("00", {
     translation: {
       0: { pattern: /[0-9]/ },
@@ -11,12 +10,12 @@ $(function () {
         alert("Número inválido. Use apenas número entre 1 a 99.");
         $("#numero").val("");
       } else {
-        $("#numero").val(num); // Remove zeros à esquerda
+        $("#numero").val(num);
       }
     },
   });
 
-  // Máscara para idade (16 a 60)
+  // Máscara para idade
   $("#idade").mask("00", {
     translation: {
       0: { pattern: /[0-9]/ },
@@ -54,13 +53,13 @@ document
       return;
     }
 
-    const regexNumero = /^(?:[1-9]|[1-9][0-9])$/; // 1 a 99
+    const regexNumero = /^(?:[1-9]|[1-9][0-9])$/; //
     if (!regexNumero.test(numero)) {
       alert("Número inválido. Use apenas número entre 1 a 99.");
       return;
     }
 
-    const regexIdade = /^(?:1[6-9]|[2-5][0-9]|60)$/; // 16 a 60
+    const regexIdade = /^(?:1[6-9]|[2-5][0-9]|60)$/; //
     if (!regexIdade.test(idade)) {
       alert("Idade inválida. Deve estar entre 16 e 60 anos.");
       return;
@@ -105,12 +104,12 @@ document
 
       const jogadorSalvo = await response.json();
 
-      // Atualiza localStorage do clube (opcional)
+      // Atualiza localStorage do clube
       clubeLogado.jogadores = clubeLogado.jogadores || [];
       clubeLogado.jogadores.push(jogadorSalvo);
       localStorage.setItem("clubeLogado", JSON.stringify(clubeLogado));
 
-      // Atualiza lista de clubes no localStorage (opcional)
+      // Atualiza lista de clubes no localStorage
       let clubes = JSON.parse(localStorage.getItem("clubes")) || [];
       clubes = clubes.map((c) => (c.id === clubeLogado.id ? clubeLogado : c));
       localStorage.setItem("clubes", JSON.stringify(clubes));

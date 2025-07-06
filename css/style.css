@@ -13,7 +13,6 @@ body {
   padding: clamp(1rem, 4vw, 2rem) 1rem;
 }
 
-/* Reduz padding da navbar em telas pequenas */
 @media (max-width: 576px) {
   .navbar-custom {
     padding-top: 1rem;
@@ -73,7 +72,7 @@ h4 {
 .card-hover:hover {
   transform: translateY(-0.3rem);
   box-shadow: 0 8px 16px rgba(0, 123, 255, 0.2);
-  border: 1px solid #0d6efd; /* azul padrão Bootstrap */
+  border: 1px solid #0d6efd;
 }
 
 .btn {
@@ -85,15 +84,15 @@ h4 {
 }
 
 #settingsDropdown button {
-  font-size: 1.5rem; /* tamanho padrão confortável */
+  font-size: 1.5rem;
   padding: 0.3rem 0.6rem;
-  min-width: 40px; /* evita ficar muito pequeno */
+  min-width: 40px;
   min-height: 40px;
 }
 
 @media (max-width: 576px) {
   #settingsDropdown button {
-    font-size: 1.2rem; /* reduz um pouco mais no mobile */
+    font-size: 1.2rem;
     padding: 0.2rem 0.4rem;
     min-width: 36px;
     min-height: 36px;
@@ -105,7 +104,7 @@ h4 {
   width: 22px;
   height: 3px;
   margin: 4px auto;
-  background-color: #ffc107; /* amarelo alerta do Bootstrap */
+  background-color: #ffc107;
   border-radius: 2px;
   border: none;
   box-shadow: none;
@@ -128,7 +127,7 @@ h4 {
 }
 
 .btn-editar-custom:hover {
-  background-color: #2c4d7a; /* tom um pouco mais escuro pro hover */
+  background-color: #2c4d7a;
   color: white;
 }
 button:hover,

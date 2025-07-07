@@ -15,7 +15,7 @@ https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=1-3&p=f
 - [x] **ID03** - Utiliza componentes CSS (ex. card, button ou outros) e JavaScript (ex. modal, carrousel ou outro) oferecidos por um Framework CSS.
 - [x] **ID04** - Implementa um layout fluido e responsivo utilizando unidades relativas (vw, vh, %, em ou rem) em vez de unidades fixas (px).
 - [x] **ID05** - Implementa animações em elementos da página, como fadeIn/fadeOut, slideIn/slideOut, utilizando CSS Animations ou bibliotecas de animação, como o Animate.css ou JQuery.
-- ~~ **ID06** - Cria transições personalizadas entre diferentes estados da página ou elementos, como mudanças de layout, alterações de cor ou exibição/hide de elementos.~~
+- ~~ ID06 - Cria transições personalizadas entre diferentes estados da página ou elementos, como mudanças de layout, alterações de cor ou exibição/hide de elementos.~~
 - [x] **ID07** - Aplica um Design System consistente, definindo diretrizes de estilo, cores, tipografia e padrões de componentes.
 - [ ] **ID08** - Implementa pré-processadores CSS, como o Sass, em conjunto com um Framework CSS ou de forma isolada.
 - [x] **ID09** - Aplica tipografia responsiva utilizando media queries ou a função clamp(), em conjunto com unidades relativas.

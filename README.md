@@ -15,10 +15,10 @@ https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=1-3&p=f
 - [x] **ID05** - Animações com jQuery (hover em cards).
 - [ ] ~~**ID06** - Transições personalizadas com CSS Transitions.~~
 - [x] **ID07** - Design System consistente (cores, botões, layout).
-- [ ] ~~**ID08** - Uso de pré-processadores CSS como Sass.~~
+- [ ] **ID08** - Uso de pré-processadores CSS como Sass.
 - [x] **ID09** - Tipografia responsiva com `clamp()` ou media queries.
 - [x] **ID10** - Responsividade de imagens (ex: `object-fit`).
-- [ ] ~~**ID11** - Otimização com WebP ou `<picture>`.~~
+- [ ] **ID11** - Otimização com WebP ou `<picture>`.
 
 ---
 
@@ -33,8 +33,8 @@ https://www.figma.com/design/GNrxKusfaxEBDmlC5sWoEA/Projeto-web2?node-id=1-3&p=f
 
 ### RA3 - Ferramentas e organização
 
-- [ ] ~~**ID16** - Uso de Node.js e NPM no projeto.~~
-- [x] **ID17** - Uso de linter (HTML ou JS - opcional com extensão).  
+- [x] **ID16** - Uso de Node.js e NPM no projeto.
+- [ ] ~~**ID17** - Uso de linter (HTML ou JS - opcional com extensão).~~
 - [x] **ID18** - Uso de Git/GitHub com commits organizados.
 - [x] **ID19** - README estruturado conforme checklist.
 - [ ] ~~**ID20** - Minificação de CSS/JS ou imagens otimizadas.~~

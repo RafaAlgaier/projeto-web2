@@ -1,4 +1,4 @@
-# projeto-web2 - BID
+# projeto-BID
 
 Autor: Rafael Algaier Teixeira
 
